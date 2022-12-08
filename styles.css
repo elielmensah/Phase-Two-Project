@@ -27,6 +27,7 @@ main.container{
     max-width: 100%;
     height: 1620px;
 }
+/* Header styling starts */
 .bg-pattern-header{
     position: absolute;
     width: 100%;
@@ -46,7 +47,7 @@ main.container{
     position: absolute;
     width: 20px;
     height: 19px;
-    left: 1163px;
+    left: 1103px;
     top: 48px;
 }
 .switch-mode{
@@ -54,7 +55,7 @@ main.container{
     width: 48px;
     height: 24px;
     top: 45px;
-    left: 1199px;
+    left: 1139px;
     border-radius: 12px;
     background-color: var(--white);
 }
@@ -69,5 +70,9 @@ main.container{
 }
 .moon{
     position: absolute;
-    
+    width: 12px;
+    height: 12px;
+    left: 1203px;
+    top: 48px;
 }
+/* Header styling ends */
