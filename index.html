@@ -4,11 +4,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32*32" href="./assets/favicon-32x32.png">
     <link rel="stylesheet" href="styles.css">
     <title>Devjobs Web App</title>
 
 </head>
 <body>
-    <h1>Devjobs Web App</h1>
+    <!-- The main sections for the entire project beings -->
+    <main>
+        <!-- Header section starts -->
+       <header>
+        <div class="bg-pattern-header"></div>
+        <div class="title">Devjobs</div>
+        <div class="switch-mode">
+            <div class="oval"></div>
+        </div>
+        <div class="moon"></div>
+       </header>
+       <!-- Header section ends -->
+
+       <!-- Filter section for filtering jobs by companies, title etc starts -->
+       <section>
+        <div class="filter-by-title_company_expertise">
+            <div class="search-icon"></div>
+            <div class="filter-text">Filter by title, company, expertise...</div>
+        </div>
+
+        <div class="filter-by-location">
+            <div class="location-icon"></div>
+            <div class="location-text">Filter by location...</div>
+        </div>
+
+        <div class="fulltime-only">
+            <div class="checkbox"></div>
+            <div class="fulltime-text">Full Time Only</div>
+        </div>
+
+        <button class="search">Search</button>
+       </section>
+
+       <section>
+        <div class="main-content">
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">5h ago. Full Time</div>
+                    <div class="job-title">Senior Software Engineer</div>
+                    <div class="company-name">Scoot</div>
+                    <div class="country">United Kingdom</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">20h ago. Part Time</div>
+                    <div class="job-title">Haskell and PureScript Dev</div>
+                    <div class="company-name">Blogr</div>
+                    <div class="country">United States</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">1d ago. Part Time</div>
+                    <div class="job-title">Midlevel Back End Engineer </div>
+                    <div class="company-name">Vectort</div>
+                    <div class="country">Russia</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">2d ago. Full Time</div>
+                    <div class="job-title">Senior Application Engineer</div>
+                    <div class="company-name">Office Lite</div>
+                    <div class="country">Japan</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">2d ago. Part Time</div>
+                    <div class="job-title">Remote DevOps Engineer</div>
+                    <div class="company-name">Pod</div>
+                    <div class="country">Thailand</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">4d ago. Part Time</div>
+                    <div class="job-title">Desktop Support Manager</div>
+                    <div class="company-name">Creative</div>
+                    <div class="country">Germany</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">1w ago. Full Time</div>
+                    <div class="job-title">iOS Engineer</div>
+                    <div class="company-name">Pomodoro</div>
+                    <div class="country">United States</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">1w ago. Full Time</div>
+                    <div class="job-title">Senior EJB Developer</div>
+                    <div class="company-name">Maker</div>
+                    <div class="country">United Kingdom</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">1w ago. Part Time</div>
+                    <div class="job-title">Senior Frontend Developer</div>
+                    <div class="company-name">Coffeeroasters</div>
+                    <div class="country">Singapore</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">2w ago. Freelance</div>
+                    <div class="job-title">App &amp; Website Designer</div>
+                    <div class="company-name">Mastercraft</div>
+                    <div class="country">United States</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">1m ago. Part Time </div>
+                    <div class="job-title">Fullstack Developer</div>
+                    <div class="company-name">Crowfund</div>
+                    <div class="country">New Zealand</div>
+                </div>
+            </div>
+
+            <div class="main-content-grid">
+                <div class="row">
+                    <div class="logo"></div>
+                    <div class="postedAt contract">4d ago. Part Time</div>
+                    <div class="job-title">Technical Lead Engineer</div>
+                    <div class="company-name">Typemaster</div>
+                    <div class="country">United Kingdom</div>
+                </div>
+            </div>
+        </div>
+       </section>
+
+    </main>
+
+    <footer>
+        <button class="load-more">Load More</button>
+    </footer>
+    
+    <script src="./jquery-3.6.1.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
