@@ -67,3 +67,7 @@ main.container{
     background-color: var(--btn1-default);
     border-radius: 50%;
 }
+.moon{
+    position: absolute;
+    
+}
