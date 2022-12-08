@@ -27,6 +27,7 @@ main.container{
     max-width: 100%;
     height: 1620px;
 }
+
 /* Header styling starts */
 .bg-pattern-header{
     position: absolute;
@@ -42,6 +43,9 @@ main.container{
     top: 44px;
     color: var(--white);
     text-transform: lowercase;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
 }
 .sun svg{
     position: absolute;
@@ -76,3 +80,38 @@ main.container{
     top: 48px;
 }
 /* Header styling ends */
+
+/* Filter section starts */
+.filter-section{
+    position: absolute;
+    left: 165px;
+    top: 120px;
+    width: 1050px;
+    height: 80px;
+    background-color: var(--white);
+    border-radius: 6px;
+    display: flex;
+}
+.filter-by-title_company_expertise{
+    position: absolute;
+    left: 30px;
+    top: 28px;
+}
+.search-icon{
+    background-image: url(./assets/desktop/icon-search.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.filter-text{
+    margin-left: 35px;
+    margin-top: -25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--very-dark-blue);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
