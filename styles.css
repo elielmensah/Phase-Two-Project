@@ -115,3 +115,76 @@ main.container{
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+.hr1{
+    margin-left: 380px;
+    background: #6E8098;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+.hr2{
+    margin-left: 300px;
+    background: #6E8098;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+.filter-by-location{
+    position: absolute;
+    left: 420px;
+    top: 28px;
+}
+.location-icon{
+    position: absolute;
+    background-image: url(./assets/desktop/icon-location.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 42px;
+}
+.location-text{
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #19202D;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.fulltime-only{
+    position: absolute;
+    top: 28px;
+    left: 720px;
+}
+.checkbox{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: var(--very-dark-blue);
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border-radius: 3px;
+}
+.fulltime-text{
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--very-dark-blue);
+}
+.search{
+    position: absolute;
+    width: 123px;
+    height: 48px;
+    top: 15px;
+    left: 900px;
+    background-color: var(--btn1-default);
+    color: var(--white);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
