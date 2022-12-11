@@ -12,6 +12,9 @@ html, body{
     font-family: "Kumbh Sans", sans-serif;
     background-color: #F4F6F8;
 }
+body.dark{
+    background-color: var(--bg-midnight);
+}
 :root{
     --btn1-default: #5964e0;
     --btn1-hover: #939BF4;
@@ -62,6 +65,7 @@ main.container{
     left: 1139px;
     border-radius: 12px;
     background-color: var(--white);
+    cursor: pointer;
 }
 .oval{
     position: absolute;
@@ -71,6 +75,9 @@ main.container{
     left: 5px;
     background-color: var(--btn1-default);
     border-radius: 50%;
+}
+.oval.active{
+   transform: translateX(calc(48px - 24px));
 }
 .moon{
     position: absolute;
@@ -92,6 +99,9 @@ main.container{
     border-radius: 6px;
     display: flex;
 }
+.filter-section.dark{
+    background-color: var(--bg-midnight);
+}
 .filter-by-title_company_expertise{
     position: absolute;
     left: 30px;
@@ -112,6 +122,11 @@ main.container{
     font-size: 16px;
     line-height: 20px;
     color: var(--very-dark-blue);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.filter-text.light{
+    color: var(--white);
     mix-blend-mode: normal;
     opacity: 0.5;
 }
@@ -150,6 +165,11 @@ main.container{
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+.location-text.light{
+    color: var(--white);
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
 .fulltime-only{
     position: absolute;
     top: 28px;
@@ -164,6 +184,12 @@ main.container{
     opacity: 0.1;
     border-radius: 3px;
 }
+.checkbox.light{
+    background-color: var(--white);
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    border-radius: 3px;
+}
 .fulltime-text{
     margin-left: 40px;
     font-style: normal;
@@ -171,6 +197,9 @@ main.container{
     font-size: 16px;
     line-height: 20px;
     color: var(--very-dark-blue);
+}
+.fulltime-text.light{
+    color: var(--white);
 }
 .search{
     position: absolute;
