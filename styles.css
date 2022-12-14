@@ -93,7 +93,7 @@ main.container{
     position: absolute;
     left: 165px;
     top: 120px;
-    width: 1050px;
+    width: 80%;
     height: 80px;
     background-color: var(--white);
     border-radius: 6px;
@@ -216,4 +216,315 @@ main.container{
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+}
+/* Filter section ends */
+
+/* Job content and description starts */
+.container-1{
+    position: absolute;
+    left: 165px;
+    top: 320px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    height: 1132px;
+    width: 80%;
+    
+}
+.row{
+    width: 330px;
+    height: 228px;
+    background: var(--white);
+    border-radius: 6px;
+}
+.postedAt{
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-grey);
+    margin-top: 35px;
+    margin-left: 20px
+}
+.job-title{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--very-dark-blue);
+    margin-top: 65px;
+    margin-left: 20px;
+}
+.company-name{
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--dark-grey);
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.country{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--btn1-default);
+    margin-top: 180px;
+    margin-left: 20px;
+}
+.logo-scoot{
+    position: absolute;
+    background-image: url(./assets/logos/scoot.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  #E99210;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-blogr{
+    position: absolute;
+    background-image: url(./assets/logos/blogr.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:  #E54D25;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-vector{
+    position: absolute;
+    background-image: url(./assets/logos/vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:   #34353F;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-officelite{
+    position: absolute;
+    background-image: url(./assets/logos/officelite.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:    #2F4FC7;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-pod{
+    position: absolute;
+    background-image: url(./assets/logos/pod.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:    #132034;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-creative{
+    position: absolute;
+    background-image: url(./assets/logos/creative.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:     #4E1853;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-pomodoro{
+    position: absolute;
+    background-image: url(./assets/logos/pomodoro.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:     #4722C6;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-maker{
+    position: absolute;
+    background-image: url(./assets/logos/maker.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:      #21427D;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-coffeeroasters{
+    position: absolute;
+    background-image: url(./assets/logos/coffeeroasters.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:      #F2DECB;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-mastercraft{
+    position: absolute;
+    background-image: url(./assets/logos/mastercraft.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:      #1F1F1F;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-crowdfund{
+    position: absolute;
+    background-image: url(./assets/logos/crowdfund.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:    #37C790;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+.logo-typemaster{
+    position: absolute;
+    background-image: url(./assets/logos/typemaster.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:     #F16718;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+/* Job content and description ends */
+
+/* Footer section starts */
+footer{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 50%;
+}
+button.load-more{
+    width: 141px;
+    height: 48px;
+    background-color: var(--btn1-default);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--white);
+    cursor: pointer;
+}
+/* Footer sections ends */
+
+/* Media query for both mobile and tablet mode starts here */
+
+@media only screen and (max-width: 500px){
+    main.container{
+        position: relative;
+        max-width: 100%;
+        height: 3650px;
+    }
+    .location-text,.location-icon,.search-icon,.fulltime-only,.hr1,.hr2,span,.search{
+        display: none;
+    }
+    .bg-pattern-header{
+        position: absolute;
+        width: 100%;
+        height: 136px;
+        background-image: url(./assets/mobile/bg-pattern-header.svg);
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
+    .title{
+        position: absolute;
+        top: 32px;
+        left: 24px;
+    }
+    .sun svg{
+        margin-left: -860px;
+    }
+    .switch-mode{
+        margin-left: -860px;
+    }
+    .moon{
+        margin-left: -860px;
+    }
+    .container-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 327px;
+        height: 3300px;
+    }
+    .filter-section{
+        width: 327px;
+        left: 24px;
+    }
+    .filter-text{
+        margin-top: 2px;
+        margin-left: 5px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--very-dark-blue);
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+    .icon-filter{
+        position: absolute;
+        background-image: url(./assets/mobile/icon-filter.svg);
+        background-position: cover;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        margin-left: -220px;
+    }
+    .mobile-btn{
+        position: absolute;
+        background-image: url(./assets/desktop/icon-search.svg);
+        background-position: cover;
+        background-repeat: no-repeat;
+        width: 48px;
+        height: 48px;
+        background-color: var(--btn1-default);
+        border-radius: 5px;
+        margin-left: 260px;
+        top: 15px;
+    }
+    svg.icon{
+        fill: #ffffff;
+        background-color: #37C790;
+    }
+    
+
 }
