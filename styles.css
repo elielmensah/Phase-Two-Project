@@ -237,6 +237,9 @@ main.container{
     background: var(--white);
     border-radius: 6px;
 }
+.row.dark{
+    background-color: var(--very-dark-blue);
+}
 .postedAt{
     position: absolute;
     font-style: normal;
@@ -256,6 +259,9 @@ main.container{
     color: var(--very-dark-blue);
     margin-top: 65px;
     margin-left: 20px;
+}
+.job-title.light{
+    color: var(--white);
 }
 .company-name{
     position: absolute;
@@ -484,6 +490,8 @@ button.load-more{
         gap: 20px;
         width: 327px;
         height: 3300px;
+        left: 24px;
+        top: 280px;
     }
     .filter-section{
         width: 327px;
@@ -520,11 +528,11 @@ button.load-more{
         border-radius: 5px;
         margin-left: 260px;
         top: 15px;
+        fill: #fff;
     }
-    svg.icon{
-        fill: #ffffff;
-        background-color: #37C790;
+    footer{
+        position: absolute;
+        top: 3700px;
+        left: -70px;
     }
-    
-
 }
