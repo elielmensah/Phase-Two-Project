@@ -474,7 +474,7 @@ button.load-more{
     }
     .bg-pattern-header{
         position: absolute;
-        width: 375px;
+        width: 100%;
         height: 136px;
         background-image: url(./assets/mobile/bg-pattern-header.svg);
         background-position: cover;
@@ -498,7 +498,7 @@ button.load-more{
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
-        width: 327px;
+        width: 100%;
         height: 3300px;
         left: 24px;
         top: 280px;
