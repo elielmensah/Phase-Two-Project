@@ -38,10 +38,5 @@ $(document).ready(function() {
         $('.checkbox svg').show();
     });
 
-    // Filter section for filtering job content by title,company, expertise or location starts here
-
-    // $('.filter-by-title_company_expertise').on('click', function(event) {
-    //     $(currentEventTarget).
-    // });
     
 });

@@ -462,6 +462,7 @@ button.load-more{
 
 /* Media query for both mobile and tablet mode starts here */
 
+/* Media query for mobile screen */
 @media only screen and (max-width: 500px){
     main.container{
         position: relative;
@@ -543,5 +544,74 @@ button.load-more{
         position: absolute;
         top: 3700px;
         left: -70px;
+    }
+}
+
+/* Media query for Tablet screen */
+
+@media only screen and (min-width: 550px) and (max-width: 900px) {
+    main.container{
+        position: relative;
+        max-width: 100%;
+        height: 2128px;
+    }
+    span{
+        display: none;
+    }
+    .bg-pattern-header{
+        position: absolute;
+        width: 768px;
+        height: 160px;
+        background-image: url(./assets/tablet/bg-pattern-header.svg);
+        background-position: cover;
+        background-repeat: no-repeat;
+    }
+    .title{
+        position: absolute;
+        left: 39px;
+        top: 42px;
+    }
+    .sun svg{
+        left: 616px;
+    }
+    .switch-mode{
+        left: 652px;
+    }
+    .moon{
+        left: 716px;
+    }
+    .container-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 1700px;
+        width: 700px;
+        left: 39px;
+        top: 280px;
+    }
+    .filter-section{
+        width: 689px;
+        left: 39px;
+    }
+    .hr1{
+        margin-left: 200px;
+    }
+    .hr2{
+        margin-left: 240px;
+    }
+    .filter-by-location{
+        left: 236px;
+    }
+    .fulltime-only{
+        left: 460px;
+    }
+    .search{
+        left: 590px;
+        width: 80px;
+        height: 48px;
+    }
+    footer{
+        position: absolute;
+        top: 2120px;
+        left: -130px;
     }
 }
