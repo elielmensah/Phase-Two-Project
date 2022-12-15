@@ -474,7 +474,7 @@ button.load-more{
     }
     .bg-pattern-header{
         position: absolute;
-        width: 100%;
+        width: 375px;
         height: 136px;
         background-image: url(./assets/mobile/bg-pattern-header.svg);
         background-position: cover;
@@ -615,3 +615,4 @@ button.load-more{
         left: -120px;
     }
 }
+
