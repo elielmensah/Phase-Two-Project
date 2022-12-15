@@ -184,12 +184,16 @@ main.container{
     opacity: 0.1;
     border-radius: 3px;
 }
-.checkbox.light{
-    background-color: var(--white);
-    mix-blend-mode: normal;
-    opacity: 0.1;
-    border-radius: 3px;
+.checkbox svg{
+    display: none;
+    margin-left: 4px;
+    margin-top: 5px;
 }
+.checkbox.blue{
+    background-color: var(--btn1-default);
+    opacity: 1;
+}
+
 .fulltime-text{
     margin-left: 40px;
     font-style: normal;
@@ -216,6 +220,7 @@ main.container{
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    cursor: pointer;
 }
 /* Filter section ends */
 
@@ -259,9 +264,13 @@ main.container{
     color: var(--very-dark-blue);
     margin-top: 65px;
     margin-left: 20px;
+    cursor: pointer;
 }
 .job-title.light{
     color: var(--white);
+}
+.job-title.dark:hover{
+    color: var(--dark-grey);
 }
 .company-name{
     position: absolute;
