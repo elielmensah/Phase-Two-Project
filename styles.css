@@ -550,7 +550,7 @@ button.load-more{
 
 /* Media query for Tablet screen */
 
-@media only screen and (min-width: 550px) and (max-width: 900px) {
+@media only screen and (min-width: 500px) and (max-width: 950px) {
     main.container{
         position: relative;
         max-width: 100%;
