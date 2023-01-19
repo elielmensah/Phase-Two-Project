@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // dark mode and light mode starts here!!
    $('.switch-mode').click(function () {
-    $('.oval').toggleClass('active');
+    $('.oval').toggleClass('active'); 
     $('body').toggleClass('dark');
 
     // filter section
@@ -35,7 +35,17 @@ $(document).ready(function() {
     // Hover state on elements ends here
 
     $('.checkbox').click(function() {
-        $('.checkbox svg').show();
+        $('.checkbox svg').toggle(5);
     });
 
+});
+
+// Filter section by expetise, company ot title start here!!
+$document.ready(function() {
+    $('#filter').on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $('.row').filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+    });
+    });
 });

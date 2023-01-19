@@ -1,7 +1,7 @@
 'use strict';
 
 const jobTitle = document.querySelector('.job-title');
-const main = document.querySelector('main.container');
+const main = document.querySelector('.container-1');
 const url = 'data.json';
 
 jobTitle.onclick = () => {
@@ -32,3 +32,5 @@ function outData(val) {
     })
     main.innerHTML = html;
 }
+
+
